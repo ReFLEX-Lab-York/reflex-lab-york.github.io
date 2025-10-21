@@ -1,0 +1,53 @@
+// Custom color scheme with enhanced syntax highlighting
+// Based on the dark theme with improved code colors
+
+// Main colors
+$body-background-color: #1e1e1e !default;
+$body-text-color: #d4d4d4 !default;
+$body-heading-color: #e3e3e3 !default;
+$link-color: #569cd6 !default;
+$nav-child-link-color: #c8c8c8 !default;
+$sidebar-color: #252526 !default;
+$base-button-color: #333333 !default;
+$btn-primary-color: #569cd6 !default;
+$code-background-color: #2d2d30 !default;
+$search-background-color: #333333 !default;
+$table-background-color: #252526 !default;
+$feedback-color: #3c3c3c !default;
+
+// Syntax highlighting colors (VS Code Dark+ inspired)
+$code-keyword: #569cd6 !default;        // Blue for keywords (if, class, def, etc.)
+$code-string: #ce9178 !default;         // Orange-ish for strings
+$code-number: #b5cea8 !default;         // Light green for numbers
+$code-comment: #6a9955 !default;        // Green for comments
+$code-function: #dcdcaa !default;       // Yellow for functions
+$code-class: #4ec9b0 !default;          // Teal for classes
+$code-variable: #9cdcfe !default;       // Light blue for variables
+$code-operator: #d4d4d4 !default;       // White for operators
+$code-constant: #4fc1ff !default;       // Bright blue for constants
+
+// Apply syntax highlighting
+.highlight {
+  background-color: $code-background-color;
+  border-radius: 4px;
+  padding: 1rem;
+  
+  .k, .kd, .kn, .kp, .kr, .kt { color: $code-keyword; }  // Keywords
+  .s, .s1, .s2, .sb, .sc, .sd { color: $code-string; }   // Strings
+  .m, .mi, .mf, .mh, .mo { color: $code-number; }        // Numbers
+  .c, .c1, .cm, .cp, .cs { color: $code-comment; }       // Comments
+  .nf, .fm { color: $code-function; }                     // Functions
+  .nc, .nn { color: $code-class; }                        // Classes
+  .n, .nx, .nv { color: $code-variable; }                 // Variables
+  .o, .ow { color: $code-operator; }                      // Operators
+  .no, .nb { color: $code-constant; }                     // Constants
+}
+
+// Inline code
+code {
+  background-color: $code-background-color;
+  color: #ce9178;
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+}
+

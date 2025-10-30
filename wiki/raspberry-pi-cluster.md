@@ -7,7 +7,7 @@ toc: true
 
 # Raspberry Pi Cluster
 
-A Raspberry Pi cluster is a collection of Raspberry Pi single-board computers networked together to create a low-cost, energy-efficient computing cluster. These clusters are excellent for learning distributed computing, parallel processing, and cluster management.
+A Raspberry Pi cluster is a collection of Raspberry Pi 3 Compute Modules single-board computers networked together to create a low-cost, energy-efficient computing cluster. These clusters are excellent for learning distributed computing, parallel processing, and cluster management.
 
 ## Overview
 
@@ -24,7 +24,7 @@ Our Raspberry Pi cluster provides a platform for:
 
 #### Nodes
 - **Number of Nodes**: 40
-- **Model**: Raspberry Pi 4 Model B
+- **Model**: Raspberry Pi 3 Model B
 - **CPU**: ARM Cortex-A72 (4 cores) @ 1.5GHz per node
 - **Total CPU Cores**: 160 cores (40 nodes × 4 cores)
 - **RAM**: 8GB per node
@@ -137,5 +137,5 @@ kubectl apply -f deployment.yaml
 
 ## Contact
 
-For questions or issues with the Raspberry Pi cluster, please contact the lab administrator.
+For questions or issues with the Raspberry Pi cluster, please contact the lab administrator (xiaotian.dai@york.ac.uk).
 

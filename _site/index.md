@@ -1,3 +1,0 @@
-# ReFLEX
-
-Code of conduct

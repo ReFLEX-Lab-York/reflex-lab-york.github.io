@@ -1,0 +1,14 @@
+@function darken($color, $amount) {
+  $h: hue($color);
+  $s: saturation($color);
+  $l: lightness($color) - $amount;
+  @return hsl($h, $s, $l);
+}
+
+@function lighten($color, $amount) {
+  $h: hue($color);
+  $s: saturation($color);
+  $l: lightness($color) + $amount;
+  @return hsl($h, $s, $l);
+}
+

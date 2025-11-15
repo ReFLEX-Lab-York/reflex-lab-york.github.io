@@ -1,20 +1,20 @@
 ---
 layout: default
-title: University Servers
+title: University Server
 parent: Computing Resources
-nav_order: 2
+nav_order: 5
 ---
 
-# University Servers
+# University Server (Viking)
 
-## HPC Resources
+## Information
 
 - [Viking Cluster](https://www.york.ac.uk/it-services/services/viking-computing-cluster/)
+- [Viking Documentation](https://vikingdocs.york.ac.uk/getting_started/quickstart.html)
 - [Information on GViking](https://wiki.york.ac.uk/display/RCS/GViking)
 - [Other University HPC Resources](https://www.york.ac.uk/it-services/research-computing/)
 
-## Viking
+## Quick Start
 
 - SSH into one of the university computers, then
 - `ssh xd656@viking.york.ac.uk`
-- [Viking Documentation](https://vikingdocs.york.ac.uk/getting_started/quickstart.html)

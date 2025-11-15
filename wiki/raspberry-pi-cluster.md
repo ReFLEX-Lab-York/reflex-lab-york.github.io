@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Raspberry Pi Cluster
-nav_order: 4
+nav_order: 3
+parent: Computing Resources
 toc: true
 ---
 
@@ -23,43 +24,41 @@ Our Raspberry Pi cluster provides a platform for:
 ### Hardware Configuration
 
 #### Nodes
-- **Number of Nodes**: 40
-- **Model**: Raspberry Pi 3 Model B
-- **CPU**: ARM Cortex-A72 (4 cores) @ 1.5GHz per node
-- **Total CPU Cores**: 160 cores (40 nodes × 4 cores)
-- **RAM**: 8GB per node
-- **Total RAM**: 320GB (40 nodes × 8GB)
-- **Storage**: 32GB microSD card per node
-- **Total Storage**: 1.28TB (40 nodes × 32GB)
+- Number of Nodes: 40
+- Model: Raspberry Pi 3 Model B
+- CPU: ARM Cortex-A72 (4 cores) @ 1.5GHz per node
+- Total CPU Cores: 160 cores (40 nodes × 4 cores)
+- RAM: 8GB per node
+- Total RAM: 320GB (40 nodes × 8GB)
+- Storage: 32GB microSD card per node
+- Total Storage: 1.28TB (40 nodes × 32GB)
 
 #### Networking
-- **Network Switch**: TBD
-- **Connection**: Gigabit Ethernet
-- **Topology**: Star topology with central switch
+- Network Switch: TBD
+- Connection: Gigabit Ethernet
+- Topology: Star topology with central switch
 
 #### Power Supply
-- **Type**: 12V 20A × 2 units
-- **Total Power**: 480W (2 × 12V × 20A)
-- **Power per Node**: 5V/3A USB-C (converted from 12V)
-- **Max Power Consumption**: ~15W per node
-- **Total Max Consumption**: ~600W (40 nodes × 15W)
+- Type: 12V 20A × 2 units
+- Total Power: 480W (2 × 12V × 20A)
+- Power per Node: 5V/3A USB-C (converted from 12V)
+- Max Power Consumption: ~15W per node
+- Total Max Consumption: ~600W (40 nodes × 15W)
 
 ### Software Stack
-
 #### Operating System
-- **OS**: Raspberry Pi OS (64-bit) or Ubuntu Server
-- **Kernel**: Linux ARM64
+- OS: Raspberry Pi OS (64-bit) or Ubuntu Server
+- Kernel: Linux ARM64
 
 #### Container Platform
-- **Docker**: For containerized applications
-- **Kubernetes**: For container orchestration (k3s or MicroK8s)
+- Docker: For containerized applications
+- Kubernetes: For container orchestration (k3s or MicroK8s)
 
 #### Cluster Management
-- **Cluster Manager**: TBD (Kubernetes, Docker Swarm, or custom)
-- **Monitoring**: Prometheus + Grafana (optional)
+- Cluster Manager: TBD (Kubernetes, Docker Swarm, or custom)
+- Monitoring: Prometheus + Grafana (optional)
 
 ## Use Cases
-
 ### 1. Distributed Computing
 - MapReduce implementations
 - Parallel processing tasks
@@ -81,7 +80,6 @@ Our Raspberry Pi cluster provides a platform for:
 - Message queue systems (RabbitMQ, Kafka)
 
 ## Getting Started
-
 ### Accessing the Cluster
 
 *Access instructions to be added*
@@ -103,7 +101,6 @@ kubectl apply -f deployment.yaml
 ```
 
 ## Resources
-
 ### Documentation
 - [Raspberry Pi Official Documentation](https://www.raspberrypi.org/documentation/)
 - [Kubernetes on Raspberry Pi](https://kubernetes.io/)
@@ -115,7 +112,6 @@ kubectl apply -f deployment.yaml
 - Distributed computing with MPI
 
 ## Maintenance
-
 ### Regular Tasks
 - Update system packages
 - Monitor node health
@@ -138,4 +134,3 @@ kubectl apply -f deployment.yaml
 ## Contact
 
 For questions or issues with the Raspberry Pi cluster, please contact the lab administrator (xiaotian.dai@york.ac.uk).
-

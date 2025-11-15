@@ -1,11 +1,11 @@
 ---
-layout: default
 title: Computing Resources
+layout: default
 nav_order: 2
 has_children: true
+permalink: /wiki/computing-resources/
 ---
 
 # Computing Resources
 
-This section covers all available computing resources for research and development.
-
+This page is a placeholder for documenting all lab computing resources. Please update with descriptions of clusters, servers, and shared workstations.

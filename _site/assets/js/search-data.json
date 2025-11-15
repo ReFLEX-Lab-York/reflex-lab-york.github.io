@@ -1,219 +1,310 @@
 {"0": {
+    "doc": "Cameras",
+    "title": "Cameras",
+    "content": "The labs have the following cameras: . | ZED Camera 1 Depth Camera | Intel D435i Depth Camera | Logitech Brio Webcamera | PS3 Eye Cameras | Microsoft Kinect | . ",
+    "url": "/wiki/cameras.html",
+    
+    "relUrl": "/wiki/cameras.html"
+  },"1": {
     "doc": "Computing Resources",
     "title": "Computing Resources",
-    "content": "This section covers all available computing resources for research and development. ",
-    "url": "/wiki/computing-resources.html",
+    "content": "This page is a placeholder for documenting all lab computing resources. Please update with descriptions of clusters, servers, and shared workstations. ",
+    "url": "/wiki/computing-resources/",
     
-    "relUrl": "/wiki/computing-resources.html"
-  },"1": {
+    "relUrl": "/wiki/computing-resources/"
+  },"2": {
     "doc": "Departmental Server",
     "title": "Departmental Server",
     "content": " ",
     "url": "/wiki/departmental-server.html",
     
     "relUrl": "/wiki/departmental-server.html"
-  },"2": {
+  },"3": {
     "doc": "Departmental Server",
     "title": "CS “Compute” servers",
     "content": "Hostname: . | compute1.cs.york.ac.uk | compute2.cs.york.ac.uk | . Specification: . | Dual AMD EPYC 7501 @ 2.6GHz | 2 x 64 threads | 512GiB RAM | 30TB local scratch | . Software: . | Standard CS Linux image | . ",
     "url": "/wiki/departmental-server.html#cs-compute-servers",
     
     "relUrl": "/wiki/departmental-server.html#cs-compute-servers"
-  },"3": {
+  },"4": {
     "doc": "Departmental Server",
     "title": "CS “Computer server aka “RoboStar”",
     "content": "This server was funded by the RoboStar group. It is available for use by all members of the department. Hostname: . | compute3.cs.york.ac.uk | . Specification: . | Dual AMD EPYC 7501 @ 2.6GHz | 2 x 64 threads | 2TB RAM | 30TB local scratch | . Software: . | Standard CS Linux image | . ",
     "url": "/wiki/departmental-server.html#cs-computer-server-aka-robostar",
     
     "relUrl": "/wiki/departmental-server.html#cs-computer-server-aka-robostar"
-  },"4": {
+  },"5": {
     "doc": "Departmental Server",
     "title": "CS “GPU” servers",
     "content": "These machines were purchased by the department and are available for fair and equal shared use by any member of the department. They are intended for development, prototyping, and testing code prior to long runs on Viking or Bede. Hostnames: . | csgpu1.cs.york.ac.uk | . Specification: . | Dual Intel Xeon 4114 @ 2.2GHz | 2 x 20 threads | 192GiB RAM | 30TB local scratch | 8 x NVIDIA GTX1080ti | . Software: . | Standard CS Linux image | CUDA | . ",
     "url": "/wiki/departmental-server.html#cs-gpu-servers",
     
     "relUrl": "/wiki/departmental-server.html#cs-gpu-servers"
-  },"5": {
+  },"6": {
+    "doc": "FPGAs",
+    "title": "FPGA Boards",
+    "content": "We have the following FPGA boards: . | AMD ALVEO U280 | Virtex 7 FPGA VC709 Connectivity Kit | Xilinx ZED Board | . Please let me know if you need any of these. ",
+    "url": "/wiki/fpga.html#fpga-boards",
+    
+    "relUrl": "/wiki/fpga.html#fpga-boards"
+  },"7": {
+    "doc": "FPGAs",
+    "title": "FPGAs",
+    "content": " ",
+    "url": "/wiki/fpga.html",
+    
+    "relUrl": "/wiki/fpga.html"
+  },"8": {
+    "doc": "Hardware",
+    "title": "Hardware",
+    "content": "This section provides an overview of the major computing hardware resources available in the lab and at the university. ",
+    "url": "/wiki/hardware/",
+    
+    "relUrl": "/wiki/hardware/"
+  },"9": {
+    "doc": "Unitree G1 Humanoid Robot",
+    "title": "Unitree G1 Humanoid Robot",
+    "content": "Three computers are needed to train and deploy robot technology: . | A supercomputer to train and fine-tune powerful foundation and generative AI models. | A development platform for robotics simulation and testing. | An onboard runtime computer to deploy trained models to physical robots. | . Only after adequate training in simulated environments can physical robots be commissioned. ",
+    "url": "/wiki/humanoid-robot.html",
+    
+    "relUrl": "/wiki/humanoid-robot.html"
+  },"10": {
+    "doc": "Unitree G1 Humanoid Robot",
+    "title": "The Three Computing Systems",
+    "content": ". | Training Computer The NVIDIA DGX platform can serve as the first computing system to train models. | Development &amp; Simulation Platform NVIDIA Omniverse running on NVIDIA OVX servers functions as the second computer system, providing the development platform and simulation environment for testing, optimizing and debugging physical AI. | Onboard Runtime Computer NVIDIA Jetson Thor robotics computers designed for onboard computing serve as the third runtime computer. | . ",
+    "url": "/wiki/humanoid-robot.html#the-three-computing-systems",
+    
+    "relUrl": "/wiki/humanoid-robot.html#the-three-computing-systems"
+  },"11": {
     "doc": "Home",
     "title": "ReFLEX Lab Wiki",
     "content": "Welcome to the ReFLEX Lab wiki! This documentation provides information about our computing resources, hardware, and best practices. ",
     "url": "/#reflex-lab-wiki",
     
     "relUrl": "/#reflex-lab-wiki"
-  },"6": {
+  },"12": {
     "doc": "Home",
     "title": "Quick Links",
-    "content": ". | Lab Server (reflex-server) - Access and use our shared lab server | Computing Resources - Overview of all available computing resources | Raspberry Pi Cluster - 40-node cluster for distributed computing | Unitree G1 Robot - Robot computing systems and requirements | . ",
+    "content": "Computing . | Computing Resources – Overview of all available clusters and servers | Lab Server (reflex-server) – Access policies and setup instructions | Lab GPU Server – GPU queue, conda environments, and job tips | Departmental Servers – Specs for compute1/2, RoboStar, and GPU hosts | Raspberry Pi Cluster – 40-node cluster for distributed experiments | University/Viking/Bede – Guidance for campus HPC resources | . Hardware &amp; Robots . | Unitree G1 Robot – Compute stack, SLAM packages, and maintenance | Swarm Robots – Networking, batteries, and ROS launch files | FPGA Platform – Toolchains, bitstreams, and lab booking process | Camera Systems – Calibration, data retention, and troubleshooting | Hardware Inventory – Loaner kits, sensors, and cables | . ",
     "url": "/#quick-links",
     
     "relUrl": "/#quick-links"
-  },"7": {
+  },"13": {
     "doc": "Home",
     "title": "Getting Started",
-    "content": "If you’re new to the lab, start by: . | Booking time on the Lab Server | Setting up your working directory | Configuring your Python environment | . For any questions or issues, please contact the lab administrator. ",
+    "content": "New to the lab? Complete these steps: . | Request SSH access to the Lab Server and create a project workspace. | Review Computing Resources to pick the right machine for your workload. | Follow the per-device guides (GPU server, Pi cluster, robots) before running long jobs. | Log your experiments and hardware bookings so teammates can coordinate usage. | . For any questions or issues, please contact the lab administrator. ",
     "url": "/#getting-started",
     
     "relUrl": "/#getting-started"
-  },"8": {
+  },"14": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"9": {
+  },"15": {
+    "doc": "Lab Server (GPU)",
+    "title": "Lab Server (reflex-server-gpu)",
+    "content": " ",
+    "url": "/wiki/lab-server-gpu.html#lab-server-reflex-server-gpu",
+    
+    "relUrl": "/wiki/lab-server-gpu.html#lab-server-reflex-server-gpu"
+  },"16": {
+    "doc": "Lab Server (GPU)",
+    "title": "How to Use",
+    "content": "Currently this machine is located in the Real-Time Systems Lab (CSE/128) and can only be physically accessed. ",
+    "url": "/wiki/lab-server-gpu.html#how-to-use",
+    
+    "relUrl": "/wiki/lab-server-gpu.html#how-to-use"
+  },"17": {
+    "doc": "Lab Server (GPU)",
+    "title": "Hardware",
+    "content": "CPU . | Intel Core i5-13600k, 14C20T @ 5.1GHz | . RAM . | 96 GB (48 GB x 2), DDR 5 | . GPU . | Nvidia RTX 4070 Super, with 12 GB of VRAM | . Hard Drives . | 1 TB, NVME SSD, /dev/nvme0, mount point: / | . ",
+    "url": "/wiki/lab-server-gpu.html#hardware",
+    
+    "relUrl": "/wiki/lab-server-gpu.html#hardware"
+  },"18": {
+    "doc": "Lab Server (GPU)",
+    "title": "Storage",
+    "content": "Software Installation . All software should be installed, if possible, at: /opt/ . Your Working Folder . | /home/yunfei/Workstation/&lt;Your University ID&gt; | Small but fast | . Persistent Data . | /mnt/storage/&lt;Your University ID&gt; | Larger but slower | . ",
+    "url": "/wiki/lab-server-gpu.html#storage",
+    
+    "relUrl": "/wiki/lab-server-gpu.html#storage"
+  },"19": {
+    "doc": "Lab Server (GPU)",
+    "title": "Environment",
+    "content": "For package management, Docker is encorgaged to use. You should use either conda or Python venv to manage your Python environment. Please do not install package to the global Python. ",
+    "url": "/wiki/lab-server-gpu.html#environment",
+    
+    "relUrl": "/wiki/lab-server-gpu.html#environment"
+  },"20": {
+    "doc": "Lab Server (GPU)",
+    "title": "⚠️ Caution",
+    "content": ". | ⚠️ Please do NOT reboot or shut down the machine. If you do need to reboot, just let me know. | ⚠️ Do NOT upgrade the Nvidia Driver, as it will crash everything! | . ",
+    "url": "/wiki/lab-server-gpu.html#%EF%B8%8F-caution",
+    
+    "relUrl": "/wiki/lab-server-gpu.html#️-caution"
+  },"21": {
+    "doc": "Lab Server (GPU)",
+    "title": "Lab Server (GPU)",
+    "content": " ",
+    "url": "/wiki/lab-server-gpu.html",
+    
+    "relUrl": "/wiki/lab-server-gpu.html"
+  },"22": {
     "doc": "Lab Server",
     "title": "Lab Server (reflex-server)",
     "content": " ",
     "url": "/wiki/lab-server.html#lab-server-reflex-server",
     
     "relUrl": "/wiki/lab-server.html#lab-server-reflex-server"
-  },"10": {
+  },"23": {
     "doc": "Lab Server",
     "title": "Booking",
     "content": "As this is a shared machine, to avoid conflicts, you have to use this spreadsheet to check the availability and book timeslots. ",
     "url": "/wiki/lab-server.html#booking",
     
     "relUrl": "/wiki/lab-server.html#booking"
-  },"11": {
+  },"24": {
     "doc": "Lab Server",
     "title": "How to Use",
     "content": ". | To use the server, please first download RustDesk. | Open RustDesk using a login ID of 207 686 592 | Then use it as if it were a local machine. | Just close the window after your use. Your code will keep running. | . ",
     "url": "/wiki/lab-server.html#how-to-use",
     
     "relUrl": "/wiki/lab-server.html#how-to-use"
-  },"12": {
+  },"25": {
     "doc": "Lab Server",
     "title": "Hardware",
     "content": "CPU . | Intel Core i5-6700k, 4C8T @ 4GHz | . RAM . | 32 GB (8 GB x 4), DDR 4 | . GPU . | Radeon RX 580, with 8 GB of VRAM | . Hard Drives . | 500 GB, M.2 SSD, /dev/sdd, mount point: / | 1 TB, NVME SSD, /dev/nvme0, mount point: /mnt/nvme0/ | 1 TB, HDD, /dev/sda, mount point: /mnt/sda/ | 256 GB, SATA SSD, /dev/sdb, mount point: /mnt/sdb/ | 500 GB, SATA SSD, /dev/sdc, mount point: /mnt/sdc/ | . ",
     "url": "/wiki/lab-server.html#hardware",
     
     "relUrl": "/wiki/lab-server.html#hardware"
-  },"13": {
+  },"26": {
     "doc": "Lab Server",
     "title": "Storage",
     "content": "Software Installation . All software should be installed, if possible, at: /opt/ . Your Working Folder . | /home/yunfei/Workstation/&lt;Your University ID&gt; | Small but fast | . Persistent Data . | /mnt/storage/&lt;Your University ID&gt; | Larger but slower | . ",
     "url": "/wiki/lab-server.html#storage",
     
     "relUrl": "/wiki/lab-server.html#storage"
-  },"14": {
+  },"27": {
     "doc": "Lab Server",
     "title": "Environment",
-    "content": "You should use either conda or Python venv to manage your Python environment. Please do not install package to the global Python. ",
+    "content": "For package management, Docker is encorgaged to use. You should use either conda or Python venv to manage your Python environment. Please do not install package to the global Python. ",
     "url": "/wiki/lab-server.html#environment",
     
     "relUrl": "/wiki/lab-server.html#environment"
-  },"15": {
+  },"28": {
     "doc": "Lab Server",
     "title": "⚠️ Caution",
     "content": ". | ⚠️ Please do NOT reboot or shut down the machine. If you do need to reboot, just let me know. | ⚠️ Do NOT upgrade the Nvidia Driver, as it will crash everything! | . ",
     "url": "/wiki/lab-server.html#%EF%B8%8F-caution",
     
     "relUrl": "/wiki/lab-server.html#️-caution"
-  },"16": {
+  },"29": {
     "doc": "Lab Server",
     "title": "Lab Server",
     "content": " ",
     "url": "/wiki/lab-server.html",
     
     "relUrl": "/wiki/lab-server.html"
-  },"17": {
+  },"30": {
     "doc": "Raspberry Pi Cluster",
     "title": "Raspberry Pi Cluster",
-    "content": "A Raspberry Pi cluster is a collection of Raspberry Pi single-board computers networked together to create a low-cost, energy-efficient computing cluster. These clusters are excellent for learning distributed computing, parallel processing, and cluster management. ",
+    "content": "A Raspberry Pi cluster is a collection of Raspberry Pi 3 Compute Modules single-board computers networked together to create a low-cost, energy-efficient computing cluster. These clusters are excellent for learning distributed computing, parallel processing, and cluster management. ",
     "url": "/wiki/raspberry-pi-cluster.html",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html"
-  },"18": {
+  },"31": {
     "doc": "Raspberry Pi Cluster",
     "title": "Overview",
     "content": "Our Raspberry Pi cluster provides a platform for: . | Distributed computing experiments | Container orchestration (Docker, Kubernetes) | Parallel processing tasks | Educational projects in cluster computing | Testing scalable applications | . ",
     "url": "/wiki/raspberry-pi-cluster.html#overview",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#overview"
-  },"19": {
+  },"32": {
     "doc": "Raspberry Pi Cluster",
     "title": "Cluster Specifications",
-    "content": "Hardware Configuration . Nodes . | Number of Nodes: 40 | Model: Raspberry Pi 4 Model B | CPU: ARM Cortex-A72 (4 cores) @ 1.5GHz per node | Total CPU Cores: 160 cores (40 nodes × 4 cores) | RAM: 8GB per node | Total RAM: 320GB (40 nodes × 8GB) | Storage: 32GB microSD card per node | Total Storage: 1.28TB (40 nodes × 32GB) | . Networking . | Network Switch: TBD | Connection: Gigabit Ethernet | Topology: Star topology with central switch | . Power Supply . | Type: 12V 20A × 2 units | Total Power: 480W (2 × 12V × 20A) | Power per Node: 5V/3A USB-C (converted from 12V) | Max Power Consumption: ~15W per node | Total Max Consumption: ~600W (40 nodes × 15W) | . Software Stack . Operating System . | OS: Raspberry Pi OS (64-bit) or Ubuntu Server | Kernel: Linux ARM64 | . Container Platform . | Docker: For containerized applications | Kubernetes: For container orchestration (k3s or MicroK8s) | . Cluster Management . | Cluster Manager: TBD (Kubernetes, Docker Swarm, or custom) | Monitoring: Prometheus + Grafana (optional) | . ",
+    "content": "Hardware Configuration . Nodes . | Number of Nodes: 40 | Model: Raspberry Pi 3 Model B | CPU: ARM Cortex-A72 (4 cores) @ 1.5GHz per node | Total CPU Cores: 160 cores (40 nodes × 4 cores) | RAM: 8GB per node | Total RAM: 320GB (40 nodes × 8GB) | Storage: 32GB microSD card per node | Total Storage: 1.28TB (40 nodes × 32GB) | . Networking . | Network Switch: TBD | Connection: Gigabit Ethernet | Topology: Star topology with central switch | . Power Supply . | Type: 12V 20A × 2 units | Total Power: 480W (2 × 12V × 20A) | Power per Node: 5V/3A USB-C (converted from 12V) | Max Power Consumption: ~15W per node | Total Max Consumption: ~600W (40 nodes × 15W) | . Software Stack . Operating System . | OS: Raspberry Pi OS (64-bit) or Ubuntu Server | Kernel: Linux ARM64 | . Container Platform . | Docker: For containerized applications | Kubernetes: For container orchestration (k3s or MicroK8s) | . Cluster Management . | Cluster Manager: TBD (Kubernetes, Docker Swarm, or custom) | Monitoring: Prometheus + Grafana (optional) | . ",
     "url": "/wiki/raspberry-pi-cluster.html#cluster-specifications",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#cluster-specifications"
-  },"20": {
+  },"33": {
     "doc": "Raspberry Pi Cluster",
     "title": "Use Cases",
     "content": "1. Distributed Computing . | MapReduce implementations | Parallel processing tasks | Scientific computations | . 2. Container Orchestration . | Kubernetes cluster for microservices | Docker Swarm for container management | CI/CD pipeline testing | . 3. Educational Projects . | Learning cluster architecture | Distributed systems coursework | Network programming experiments | . 4. Web Services . | Load-balanced web applications | Database clusters (MySQL, PostgreSQL) | Message queue systems (RabbitMQ, Kafka) | . ",
     "url": "/wiki/raspberry-pi-cluster.html#use-cases",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#use-cases"
-  },"21": {
+  },"34": {
     "doc": "Raspberry Pi Cluster",
     "title": "Getting Started",
     "content": "Accessing the Cluster . Access instructions to be added . Basic Commands . # SSH into the master node ssh pi@cluster-master.local # Check cluster status kubectl get nodes # View running pods kubectl get pods --all-namespaces # Deploy an application kubectl apply -f deployment.yaml . ",
     "url": "/wiki/raspberry-pi-cluster.html#getting-started",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#getting-started"
-  },"22": {
+  },"35": {
     "doc": "Raspberry Pi Cluster",
     "title": "Resources",
     "content": "Documentation . | Raspberry Pi Official Documentation | Kubernetes on Raspberry Pi | Docker ARM Documentation | . Tutorials . | Building a Raspberry Pi cluster from scratch | Setting up Kubernetes on ARM | Distributed computing with MPI | . ",
     "url": "/wiki/raspberry-pi-cluster.html#resources",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#resources"
-  },"23": {
+  },"36": {
     "doc": "Raspberry Pi Cluster",
     "title": "Maintenance",
     "content": "Regular Tasks . | Update system packages | Monitor node health | Check network connectivity | Backup configurations | . Troubleshooting . | Node offline: Check power and network connections | Performance issues: Monitor CPU and memory usage | Network problems: Verify switch configuration | . ",
     "url": "/wiki/raspberry-pi-cluster.html#maintenance",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#maintenance"
-  },"24": {
+  },"37": {
     "doc": "Raspberry Pi Cluster",
     "title": "Future Enhancements",
     "content": ". | Add more nodes to increase capacity | Implement distributed storage (Ceph, GlusterFS) | Set up monitoring dashboard | Install GPU accelerators for ML workloads | Configure automated backups | . ",
     "url": "/wiki/raspberry-pi-cluster.html#future-enhancements",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#future-enhancements"
-  },"25": {
+  },"38": {
     "doc": "Raspberry Pi Cluster",
     "title": "Contact",
-    "content": "For questions or issues with the Raspberry Pi cluster, please contact the lab administrator. ",
+    "content": "For questions or issues with the Raspberry Pi cluster, please contact the lab administrator (xiaotian.dai@york.ac.uk). ",
     "url": "/wiki/raspberry-pi-cluster.html#contact",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#contact"
-  },"26": {
-    "doc": "University Servers",
-    "title": "University Servers",
+  },"39": {
+    "doc": "Swarm Robot",
+    "title": "Swarm Robot",
+    "content": "We have a bunch of swarm robots, including . | Pi-Puck (E-Puck + Raspberry Pi) | Mona | Tello (drones) | . There is also a playground for these swarm robots, including a global vision camera that used to detection the positions. ",
+    "url": "/wiki/swam-robot.html",
+    
+    "relUrl": "/wiki/swam-robot.html"
+  },"40": {
+    "doc": "University Server",
+    "title": "University Server (Viking)",
+    "content": " ",
+    "url": "/wiki/university-servers.html#university-server-viking",
+    
+    "relUrl": "/wiki/university-servers.html#university-server-viking"
+  },"41": {
+    "doc": "University Server",
+    "title": "Information",
+    "content": ". | Viking Cluster | Viking Documentation | Information on GViking | Other University HPC Resources | . ",
+    "url": "/wiki/university-servers.html#information",
+    
+    "relUrl": "/wiki/university-servers.html#information"
+  },"42": {
+    "doc": "University Server",
+    "title": "Quick Start",
+    "content": ". | SSH into one of the university computers, then | ssh xd656@viking.york.ac.uk | . ",
+    "url": "/wiki/university-servers.html#quick-start",
+    
+    "relUrl": "/wiki/university-servers.html#quick-start"
+  },"43": {
+    "doc": "University Server",
+    "title": "University Server",
     "content": " ",
     "url": "/wiki/university-servers.html",
     
     "relUrl": "/wiki/university-servers.html"
-  },"27": {
-    "doc": "University Servers",
-    "title": "HPC Resources",
-    "content": ". | Viking Cluster | Information on GViking | Other University HPC Resources | . ",
-    "url": "/wiki/university-servers.html#hpc-resources",
-    
-    "relUrl": "/wiki/university-servers.html#hpc-resources"
-  },"28": {
-    "doc": "University Servers",
-    "title": "Viking",
-    "content": ". | SSH into one of the university computers, then | ssh xd656@viking.york.ac.uk | Viking Documentation | . ",
-    "url": "/wiki/university-servers.html#viking",
-    
-    "relUrl": "/wiki/university-servers.html#viking"
-  },"29": {
-    "doc": "Unitree G1 Robot",
-    "title": "Unitree G1 Robot",
-    "content": "Three computers are needed to train and deploy robot technology: . | A supercomputer to train and fine-tune powerful foundation and generative AI models. | A development platform for robotics simulation and testing. | An onboard runtime computer to deploy trained models to physical robots. | . Only after adequate training in simulated environments can physical robots be commissioned. ",
-    "url": "/wiki/using-robot.html",
-    
-    "relUrl": "/wiki/using-robot.html"
-  },"30": {
-    "doc": "Unitree G1 Robot",
-    "title": "The Three Computing Systems",
-    "content": "1. Training Computer . The NVIDIA DGX platform can serve as the first computing system to train models. 2. Development &amp; Simulation Platform . NVIDIA Omniverse running on NVIDIA OVX servers functions as the second computer system, providing the development platform and simulation environment for testing, optimizing and debugging physical AI. 3. Onboard Runtime Computer . NVIDIA Jetson Thor robotics computers designed for onboard computing serve as the third runtime computer. ",
-    "url": "/wiki/using-robot.html#the-three-computing-systems",
-    
-    "relUrl": "/wiki/using-robot.html#the-three-computing-systems"
   }
 }

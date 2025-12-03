@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Departmental Server
-parent: Computing Resources
 nav_order: 4
 ---
 
@@ -67,3 +66,8 @@ Software:
 
 - Standard CS Linux image
 - CUDA
+
+
+Other Servers:
+
+csgpu{1,2,4,5,9,13}.cs.york.ac.uk

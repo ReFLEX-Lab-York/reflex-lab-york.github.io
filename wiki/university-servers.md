@@ -1,11 +1,12 @@
 ---
 layout: default
-title: University Server
-parent: Computing Resources
+title: University Server "Viking 2"
 nav_order: 5
 ---
 
-# University Server (Viking)
+# University Server (Viking 2)
+
+The university has its own high-performance computing, known as Viking 2.
 
 ## Information
 
@@ -16,5 +17,5 @@ nav_order: 5
 
 ## Quick Start
 
-- SSH into one of the university computers, then
-- `ssh xd656@viking.york.ac.uk`
+SSH into one of the university computers, or use VPN, and then
+- `ssh your_user_name@viking.york.ac.uk`

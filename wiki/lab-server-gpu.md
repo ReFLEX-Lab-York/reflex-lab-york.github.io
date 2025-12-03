@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Lab Server (GPU)
-nav_order: 2
-parent: Computing Resources
+nav_order: 3
 toc: true
 ---
 

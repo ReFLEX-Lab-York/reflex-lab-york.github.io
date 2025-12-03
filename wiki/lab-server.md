@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Lab Server
-nav_order: 1
-parent: Computing Resources
+nav_order: 2
 toc: true
 ---
 
@@ -17,8 +16,9 @@ As this is a shared machine, to avoid conflicts, you have to use [this spreadshe
 
 1. To use the server, please first download [RustDesk](https://rustdesk.com/).
 2. Open RustDesk using a login ID of `207 686 592`
-3. Then use it as if it were a local machine.
-4. Just close the window after your use. Your code will keep running.
+3. Ask me for a password.
+4. Then use it as if it were a local machine.
+5. Just close the window after your use. Your code will keep running.
 
 ---
 
@@ -38,7 +38,6 @@ As this is a shared machine, to avoid conflicts, you have to use [this spreadshe
 ### Hard Drives
 
 - 500 GB, M.2 SSD, `/dev/sdd`, mount point: `/`
-- 1 TB, NVME SSD, `/dev/nvme0`, mount point: `/mnt/nvme0/`
 - 1 TB, HDD, `/dev/sda`, mount point: `/mnt/sda/`
 - 256 GB, SATA SSD, `/dev/sdb`, mount point: `/mnt/sdb/`
 - 500 GB, SATA SSD, `/dev/sdc`, mount point: `/mnt/sdc/`

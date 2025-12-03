@@ -1,307 +1,335 @@
 {"0": {
-    "doc": "Cameras",
-    "title": "Cameras",
-    "content": "The labs have the following cameras: . | ZED Camera 1 Depth Camera | Intel D435i Depth Camera | Logitech Brio Webcamera | PS3 Eye Cameras | Microsoft Kinect | . ",
-    "url": "/wiki/cameras.html",
-    
-    "relUrl": "/wiki/cameras.html"
-  },"1": {
-    "doc": "Computing Resources",
-    "title": "Computing Resources",
-    "content": "This page is a placeholder for documenting all lab computing resources. Please update with descriptions of clusters, servers, and shared workstations. ",
-    "url": "/wiki/computing-resources/",
-    
-    "relUrl": "/wiki/computing-resources/"
-  },"2": {
     "doc": "Departmental Server",
     "title": "Departmental Server",
     "content": " ",
     "url": "/wiki/departmental-server.html",
     
     "relUrl": "/wiki/departmental-server.html"
-  },"3": {
+  },"1": {
     "doc": "Departmental Server",
     "title": "CS “Compute” servers",
     "content": "Hostname: . | compute1.cs.york.ac.uk | compute2.cs.york.ac.uk | . Specification: . | Dual AMD EPYC 7501 @ 2.6GHz | 2 x 64 threads | 512GiB RAM | 30TB local scratch | . Software: . | Standard CS Linux image | . ",
     "url": "/wiki/departmental-server.html#cs-compute-servers",
     
     "relUrl": "/wiki/departmental-server.html#cs-compute-servers"
-  },"4": {
+  },"2": {
     "doc": "Departmental Server",
     "title": "CS “Computer server aka “RoboStar”",
     "content": "This server was funded by the RoboStar group. It is available for use by all members of the department. Hostname: . | compute3.cs.york.ac.uk | . Specification: . | Dual AMD EPYC 7501 @ 2.6GHz | 2 x 64 threads | 2TB RAM | 30TB local scratch | . Software: . | Standard CS Linux image | . ",
     "url": "/wiki/departmental-server.html#cs-computer-server-aka-robostar",
     
     "relUrl": "/wiki/departmental-server.html#cs-computer-server-aka-robostar"
-  },"5": {
+  },"3": {
     "doc": "Departmental Server",
     "title": "CS “GPU” servers",
-    "content": "These machines were purchased by the department and are available for fair and equal shared use by any member of the department. They are intended for development, prototyping, and testing code prior to long runs on Viking or Bede. Hostnames: . | csgpu1.cs.york.ac.uk | . Specification: . | Dual Intel Xeon 4114 @ 2.2GHz | 2 x 20 threads | 192GiB RAM | 30TB local scratch | 8 x NVIDIA GTX1080ti | . Software: . | Standard CS Linux image | CUDA | . ",
+    "content": "These machines were purchased by the department and are available for fair and equal shared use by any member of the department. They are intended for development, prototyping, and testing code prior to long runs on Viking or Bede. Hostnames: . | csgpu1.cs.york.ac.uk | . Specification: . | Dual Intel Xeon 4114 @ 2.2GHz | 2 x 20 threads | 192GiB RAM | 30TB local scratch | 8 x NVIDIA GTX1080ti | . Software: . | Standard CS Linux image | CUDA | . Other Servers: . csgpu{1,2,4,5,9,13}.cs.york.ac.uk . ",
     "url": "/wiki/departmental-server.html#cs-gpu-servers",
     
     "relUrl": "/wiki/departmental-server.html#cs-gpu-servers"
-  },"6": {
+  },"4": {
     "doc": "FPGAs",
     "title": "FPGA Boards",
     "content": "We have the following FPGA boards: . | AMD ALVEO U280 | Virtex 7 FPGA VC709 Connectivity Kit | Xilinx ZED Board | . Please let me know if you need any of these. ",
     "url": "/wiki/fpga.html#fpga-boards",
     
     "relUrl": "/wiki/fpga.html#fpga-boards"
-  },"7": {
+  },"5": {
     "doc": "FPGAs",
     "title": "FPGAs",
     "content": " ",
     "url": "/wiki/fpga.html",
     
     "relUrl": "/wiki/fpga.html"
-  },"8": {
-    "doc": "Hardware",
-    "title": "Hardware",
-    "content": "This section provides an overview of the major computing hardware resources available in the lab and at the university. ",
-    "url": "/wiki/hardware/",
-    
-    "relUrl": "/wiki/hardware/"
-  },"9": {
-    "doc": "Unitree G1 Humanoid Robot",
-    "title": "Unitree G1 Humanoid Robot",
+  },"6": {
+    "doc": "Humanoid Robot \"Unitree G1\"",
+    "title": "Humanoid Robot (Unitree G1)",
     "content": "Three computers are needed to train and deploy robot technology: . | A supercomputer to train and fine-tune powerful foundation and generative AI models. | A development platform for robotics simulation and testing. | An onboard runtime computer to deploy trained models to physical robots. | . Only after adequate training in simulated environments can physical robots be commissioned. ",
-    "url": "/wiki/humanoid-robot.html",
+    "url": "/wiki/humanoid-robot.html#humanoid-robot-unitree-g1",
     
-    "relUrl": "/wiki/humanoid-robot.html"
-  },"10": {
-    "doc": "Unitree G1 Humanoid Robot",
+    "relUrl": "/wiki/humanoid-robot.html#humanoid-robot-unitree-g1"
+  },"7": {
+    "doc": "Humanoid Robot \"Unitree G1\"",
     "title": "The Three Computing Systems",
     "content": ". | Training Computer The NVIDIA DGX platform can serve as the first computing system to train models. | Development &amp; Simulation Platform NVIDIA Omniverse running on NVIDIA OVX servers functions as the second computer system, providing the development platform and simulation environment for testing, optimizing and debugging physical AI. | Onboard Runtime Computer NVIDIA Jetson Thor robotics computers designed for onboard computing serve as the third runtime computer. | . ",
     "url": "/wiki/humanoid-robot.html#the-three-computing-systems",
     
     "relUrl": "/wiki/humanoid-robot.html#the-three-computing-systems"
-  },"11": {
+  },"8": {
+    "doc": "Humanoid Robot \"Unitree G1\"",
+    "title": "Humanoid Robot \"Unitree G1\"",
+    "content": " ",
+    "url": "/wiki/humanoid-robot.html",
+    
+    "relUrl": "/wiki/humanoid-robot.html"
+  },"9": {
     "doc": "Home",
     "title": "ReFLEX Lab Wiki",
     "content": "Welcome to the ReFLEX Lab wiki! This documentation provides information about our computing resources, hardware, and best practices. ",
     "url": "/#reflex-lab-wiki",
     
     "relUrl": "/#reflex-lab-wiki"
-  },"12": {
+  },"10": {
     "doc": "Home",
     "title": "Quick Links",
-    "content": "Computing . | Computing Resources – Overview of all available clusters and servers | Lab Server (reflex-server) – Access policies and setup instructions | Lab GPU Server – GPU queue, conda environments, and job tips | Departmental Servers – Specs for compute1/2, RoboStar, and GPU hosts | Raspberry Pi Cluster – 40-node cluster for distributed experiments | University/Viking/Bede – Guidance for campus HPC resources | . Hardware &amp; Robots . | Unitree G1 Robot – Compute stack, SLAM packages, and maintenance | Swarm Robots – Networking, batteries, and ROS launch files | FPGA Platform – Toolchains, bitstreams, and lab booking process | Camera Systems – Calibration, data retention, and troubleshooting | Hardware Inventory – Loaner kits, sensors, and cables | . ",
+    "content": "Computing . | Lab Server (reflex-server) – Access policies and setup instructions | Lab GPU Server – GPU queue, conda environments, and job tips | Departmental Servers – Specs for compute1/2, RoboStar, and GPU hosts | University Server (Viking) – Guidance for campus HPC resources | Raspberry Pi Cluster – 40-node cluster for distributed experiments | . Hardware &amp; Robots . | Unitree G1 Robot – Compute stack, SLAM packages, and maintenance | Swarm Robots – Networking, batteries, and ROS launch files | FPGA Platform – Toolchains, bitstreams, and lab booking process | Sensors – Calibration, data retention, and troubleshooting | . For any questions or issues, please contact the lab administrator. ",
     "url": "/#quick-links",
     
     "relUrl": "/#quick-links"
-  },"13": {
-    "doc": "Home",
-    "title": "Getting Started",
-    "content": "New to the lab? Complete these steps: . | Request SSH access to the Lab Server and create a project workspace. | Review Computing Resources to pick the right machine for your workload. | Follow the per-device guides (GPU server, Pi cluster, robots) before running long jobs. | Log your experiments and hardware bookings so teammates can coordinate usage. | . For any questions or issues, please contact the lab administrator. ",
-    "url": "/#getting-started",
-    
-    "relUrl": "/#getting-started"
-  },"14": {
+  },"11": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"15": {
+  },"12": {
     "doc": "Lab Server (GPU)",
     "title": "Lab Server (reflex-server-gpu)",
     "content": " ",
     "url": "/wiki/lab-server-gpu.html#lab-server-reflex-server-gpu",
     
     "relUrl": "/wiki/lab-server-gpu.html#lab-server-reflex-server-gpu"
-  },"16": {
+  },"13": {
     "doc": "Lab Server (GPU)",
     "title": "How to Use",
     "content": "Currently this machine is located in the Real-Time Systems Lab (CSE/128) and can only be physically accessed. ",
     "url": "/wiki/lab-server-gpu.html#how-to-use",
     
     "relUrl": "/wiki/lab-server-gpu.html#how-to-use"
-  },"17": {
+  },"14": {
     "doc": "Lab Server (GPU)",
     "title": "Hardware",
     "content": "CPU . | Intel Core i5-13600k, 14C20T @ 5.1GHz | . RAM . | 96 GB (48 GB x 2), DDR 5 | . GPU . | Nvidia RTX 4070 Super, with 12 GB of VRAM | . Hard Drives . | 1 TB, NVME SSD, /dev/nvme0, mount point: / | . ",
     "url": "/wiki/lab-server-gpu.html#hardware",
     
     "relUrl": "/wiki/lab-server-gpu.html#hardware"
-  },"18": {
+  },"15": {
     "doc": "Lab Server (GPU)",
     "title": "Storage",
     "content": "Software Installation . All software should be installed, if possible, at: /opt/ . Your Working Folder . | /home/yunfei/Workstation/&lt;Your University ID&gt; | Small but fast | . Persistent Data . | /mnt/storage/&lt;Your University ID&gt; | Larger but slower | . ",
     "url": "/wiki/lab-server-gpu.html#storage",
     
     "relUrl": "/wiki/lab-server-gpu.html#storage"
-  },"19": {
+  },"16": {
     "doc": "Lab Server (GPU)",
     "title": "Environment",
     "content": "For package management, Docker is encorgaged to use. You should use either conda or Python venv to manage your Python environment. Please do not install package to the global Python. ",
     "url": "/wiki/lab-server-gpu.html#environment",
     
     "relUrl": "/wiki/lab-server-gpu.html#environment"
-  },"20": {
+  },"17": {
     "doc": "Lab Server (GPU)",
     "title": "⚠️ Caution",
     "content": ". | ⚠️ Please do NOT reboot or shut down the machine. If you do need to reboot, just let me know. | ⚠️ Do NOT upgrade the Nvidia Driver, as it will crash everything! | . ",
     "url": "/wiki/lab-server-gpu.html#%EF%B8%8F-caution",
     
     "relUrl": "/wiki/lab-server-gpu.html#️-caution"
-  },"21": {
+  },"18": {
     "doc": "Lab Server (GPU)",
     "title": "Lab Server (GPU)",
     "content": " ",
     "url": "/wiki/lab-server-gpu.html",
     
     "relUrl": "/wiki/lab-server-gpu.html"
-  },"22": {
+  },"19": {
     "doc": "Lab Server",
     "title": "Lab Server (reflex-server)",
     "content": " ",
     "url": "/wiki/lab-server.html#lab-server-reflex-server",
     
     "relUrl": "/wiki/lab-server.html#lab-server-reflex-server"
-  },"23": {
+  },"20": {
     "doc": "Lab Server",
     "title": "Booking",
     "content": "As this is a shared machine, to avoid conflicts, you have to use this spreadsheet to check the availability and book timeslots. ",
     "url": "/wiki/lab-server.html#booking",
     
     "relUrl": "/wiki/lab-server.html#booking"
-  },"24": {
+  },"21": {
     "doc": "Lab Server",
     "title": "How to Use",
-    "content": ". | To use the server, please first download RustDesk. | Open RustDesk using a login ID of 207 686 592 | Then use it as if it were a local machine. | Just close the window after your use. Your code will keep running. | . ",
+    "content": ". | To use the server, please first download RustDesk. | Open RustDesk using a login ID of 207 686 592 | Ask me for a password. | Then use it as if it were a local machine. | Just close the window after your use. Your code will keep running. | . ",
     "url": "/wiki/lab-server.html#how-to-use",
     
     "relUrl": "/wiki/lab-server.html#how-to-use"
-  },"25": {
+  },"22": {
     "doc": "Lab Server",
     "title": "Hardware",
-    "content": "CPU . | Intel Core i5-6700k, 4C8T @ 4GHz | . RAM . | 32 GB (8 GB x 4), DDR 4 | . GPU . | Radeon RX 580, with 8 GB of VRAM | . Hard Drives . | 500 GB, M.2 SSD, /dev/sdd, mount point: / | 1 TB, NVME SSD, /dev/nvme0, mount point: /mnt/nvme0/ | 1 TB, HDD, /dev/sda, mount point: /mnt/sda/ | 256 GB, SATA SSD, /dev/sdb, mount point: /mnt/sdb/ | 500 GB, SATA SSD, /dev/sdc, mount point: /mnt/sdc/ | . ",
+    "content": "CPU . | Intel Core i5-6700k, 4C8T @ 4GHz | . RAM . | 32 GB (8 GB x 4), DDR 4 | . GPU . | Radeon RX 580, with 8 GB of VRAM | . Hard Drives . | 500 GB, M.2 SSD, /dev/sdd, mount point: / | 1 TB, HDD, /dev/sda, mount point: /mnt/sda/ | 256 GB, SATA SSD, /dev/sdb, mount point: /mnt/sdb/ | 500 GB, SATA SSD, /dev/sdc, mount point: /mnt/sdc/ | . ",
     "url": "/wiki/lab-server.html#hardware",
     
     "relUrl": "/wiki/lab-server.html#hardware"
-  },"26": {
+  },"23": {
     "doc": "Lab Server",
     "title": "Storage",
     "content": "Software Installation . All software should be installed, if possible, at: /opt/ . Your Working Folder . | /home/yunfei/Workstation/&lt;Your University ID&gt; | Small but fast | . Persistent Data . | /mnt/storage/&lt;Your University ID&gt; | Larger but slower | . ",
     "url": "/wiki/lab-server.html#storage",
     
     "relUrl": "/wiki/lab-server.html#storage"
-  },"27": {
+  },"24": {
     "doc": "Lab Server",
     "title": "Environment",
     "content": "For package management, Docker is encorgaged to use. You should use either conda or Python venv to manage your Python environment. Please do not install package to the global Python. ",
     "url": "/wiki/lab-server.html#environment",
     
     "relUrl": "/wiki/lab-server.html#environment"
-  },"28": {
+  },"25": {
     "doc": "Lab Server",
     "title": "⚠️ Caution",
     "content": ". | ⚠️ Please do NOT reboot or shut down the machine. If you do need to reboot, just let me know. | ⚠️ Do NOT upgrade the Nvidia Driver, as it will crash everything! | . ",
     "url": "/wiki/lab-server.html#%EF%B8%8F-caution",
     
     "relUrl": "/wiki/lab-server.html#️-caution"
-  },"29": {
+  },"26": {
     "doc": "Lab Server",
     "title": "Lab Server",
     "content": " ",
     "url": "/wiki/lab-server.html",
     
     "relUrl": "/wiki/lab-server.html"
-  },"30": {
+  },"27": {
     "doc": "Raspberry Pi Cluster",
     "title": "Raspberry Pi Cluster",
-    "content": "A Raspberry Pi cluster is a collection of Raspberry Pi 3 Compute Modules single-board computers networked together to create a low-cost, energy-efficient computing cluster. These clusters are excellent for learning distributed computing, parallel processing, and cluster management. ",
+    "content": "The Raspberry Pi cluster is a collection of Raspberry Pi 3 Compute Modules single-board computers networked together to create a low-cost, energy-efficient computing cluster. These clusters are excellent for learning distributed computing, parallel processing, and cluster management. ",
     "url": "/wiki/raspberry-pi-cluster.html",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html"
-  },"31": {
+  },"28": {
     "doc": "Raspberry Pi Cluster",
     "title": "Overview",
     "content": "Our Raspberry Pi cluster provides a platform for: . | Distributed computing experiments | Container orchestration (Docker, Kubernetes) | Parallel processing tasks | Educational projects in cluster computing | Testing scalable applications | . ",
     "url": "/wiki/raspberry-pi-cluster.html#overview",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#overview"
-  },"32": {
+  },"29": {
     "doc": "Raspberry Pi Cluster",
     "title": "Cluster Specifications",
-    "content": "Hardware Configuration . Nodes . | Number of Nodes: 40 | Model: Raspberry Pi 3 Model B | CPU: ARM Cortex-A72 (4 cores) @ 1.5GHz per node | Total CPU Cores: 160 cores (40 nodes × 4 cores) | RAM: 8GB per node | Total RAM: 320GB (40 nodes × 8GB) | Storage: 32GB microSD card per node | Total Storage: 1.28TB (40 nodes × 32GB) | . Networking . | Network Switch: TBD | Connection: Gigabit Ethernet | Topology: Star topology with central switch | . Power Supply . | Type: 12V 20A × 2 units | Total Power: 480W (2 × 12V × 20A) | Power per Node: 5V/3A USB-C (converted from 12V) | Max Power Consumption: ~15W per node | Total Max Consumption: ~600W (40 nodes × 15W) | . Software Stack . Operating System . | OS: Raspberry Pi OS (64-bit) or Ubuntu Server | Kernel: Linux ARM64 | . Container Platform . | Docker: For containerized applications | Kubernetes: For container orchestration (k3s or MicroK8s) | . Cluster Management . | Cluster Manager: TBD (Kubernetes, Docker Swarm, or custom) | Monitoring: Prometheus + Grafana (optional) | . ",
+    "content": "Hardware Configuration . Nodes . | Number of Nodes: 40 | Model: Raspberry Pi 3 Model B | CPU: ARM Cortex-A72 (4 cores) @ 1.5GHz per node | Total CPU Cores: 160 cores (40 nodes × 4 cores) | RAM: 8GB per node | Total RAM: 320GB (40 nodes × 8GB) | Storage: 32GB microSD card per node | Total Storage: 1.28TB (40 nodes × 32GB) | . Power Supply . | Type: 12V 20A × 2 units | Total Power: 480W (2 × 12V × 20A) | Power per Node: 5V/3A USB-C (converted from 12V) | Max Power Consumption: ~15W per node | Total Max Consumption: ~600W (40 nodes × 15W) | . ",
     "url": "/wiki/raspberry-pi-cluster.html#cluster-specifications",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#cluster-specifications"
-  },"33": {
+  },"30": {
+    "doc": "Raspberry Pi Cluster",
+    "title": "Cluster Architecture",
+    "content": "The cluster uses the pakupi setup framework, which defines three distinct roles: . | Host: The machine used to configure the cluster (typically your workstation) | Controller: The main node providing cluster services (scheduling, file sharing, job submission, dashboard) | Worker: Nodes that provide processing power to the cluster (40 Raspberry Pi nodes) | . Note: This guide is based on Ubuntu 22.04 Server. The Controller and Workers should use the same Linux distribution to ensure Slurm compatibility. ",
+    "url": "/wiki/raspberry-pi-cluster.html#cluster-architecture",
+    
+    "relUrl": "/wiki/raspberry-pi-cluster.html#cluster-architecture"
+  },"31": {
     "doc": "Raspberry Pi Cluster",
     "title": "Use Cases",
-    "content": "1. Distributed Computing . | MapReduce implementations | Parallel processing tasks | Scientific computations | . 2. Container Orchestration . | Kubernetes cluster for microservices | Docker Swarm for container management | CI/CD pipeline testing | . 3. Educational Projects . | Learning cluster architecture | Distributed systems coursework | Network programming experiments | . 4. Web Services . | Load-balanced web applications | Database clusters (MySQL, PostgreSQL) | Message queue systems (RabbitMQ, Kafka) | . ",
+    "content": "1. Distributed Computing . | MapReduce implementations | Parallel processing tasks | Scientific computations | Slurm job scheduling | . 2. Container Orchestration . | Kubernetes cluster for microservices | Docker Swarm for container management | CI/CD pipeline testing | . 3. Educational Projects . | Learning cluster architecture | Distributed systems coursework | Network programming experiments | . 4. Web Services . | Load-balanced web applications | Database clusters (MySQL, PostgreSQL) | Message queue systems (RabbitMQ, Kafka) | . ",
     "url": "/wiki/raspberry-pi-cluster.html#use-cases",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#use-cases"
+  },"32": {
+    "doc": "Raspberry Pi Cluster",
+    "title": "Initial Setup",
+    "content": "Preparing the Host Machine . The Host machine is used to configure the cluster through Ansible. It requires: . | Install Ansible: apt install ansible ansible --version # Verify installation . | Install pakupi Ansible requirements: ansible-galaxy install -r requirements-galaxy.yml . | Prepare SSH key: ssh-keygen # Generate SSH key if needed # Key will be in ~/.ssh/id_rsa.pub (public) and ~/.ssh/id_rsa (private) . | Configure cluster setup scripts using cluster configuration variables. | . Preparing the Controller . The Controller is the main entry point for cluster interactions. Setup requirements: . Operating System Setup . | Install Ubuntu 22.04 Server (or compatible distribution) | Configure a fixed IP address on the interface used for cluster communication | Create a user with administrative rights | Enable SSH access | . Network Configuration . The Controller provides DHCP services for worker nodes. Example netplan configuration: . network: version: 2 ethernets: eth0: dhcp4: false addresses: - 192.168.64.1/24 . Adding Controller to Inventory . Create an inventory.ini file with the Controller entry: . controller ansible_host=CONTROLLER_IP ansible_user=CONTROLLER_USER [pakupi_controller] controller [other-group] controller . Preparing Workers . Operating System Setup . Each worker should run Ubuntu 22.04 Server (same version as Controller): . | Flash Ubuntu Server 22.04 LTS (64-bit) to SD card | Create a user with administrative rights | Enable SSH access | Add Host SSH key to authorized keys (use ssh-copy-id if needed) | . Network Configuration . Workers use DHCP to obtain IP addresses. Example netplan configuration: . network: version: 2 ethernets: eth0: dhcp4: true . Adding Workers to Inventory . | Start the worker and check DHCP lease on Controller: dhcp-lease-list # Run on Controller . | Add worker to inventory.ini: controller ansible_host=CONTROLLER_IP ansible_user=CONTROLLER_USER worker1 ansible_host=WORKER1_IP ansible_user=WORKER_USER macaddress=11:22:33:44:55:66 [pakupi_controller] controller [pakupi_worker] worker1 . | Connect via SSH to accept host fingerprint before running Ansible commands. | . ",
+    "url": "/wiki/raspberry-pi-cluster.html#initial-setup",
+    
+    "relUrl": "/wiki/raspberry-pi-cluster.html#initial-setup"
+  },"33": {
+    "doc": "Raspberry Pi Cluster",
+    "title": "Cluster Configuration",
+    "content": "The cluster is configured using Ansible playbooks in the following order: . 1. DHCP Server Setup . ansible-playbook -i inventory.ini 01-dhcp.yaml . Verification: . # Check DHCP server status ansible -C -i inventory.ini -m service -a \"state=stopped name=isc-dhcp-server\" pakupi_controller # Or on Controller directly: systemctl status isc-dhcp-server # Check worker IP assignment ip addr show eth0 # On worker dhclient eth0 # Refresh DHCP lease if needed . 2. NIS (Network Information Service) Setup . ansible-playbook -i inventory.ini 02-nis.yaml . Verification: . # Check NIS server status ansible -C -i inventory.ini -m service -a \"state=stopped name=ypserv\" pakupi_controller # Test NIS on worker yptest . 3. Slurm Setup . ansible-playbook -i inventory.ini 03-slurm.yaml . Verification: . # Test Slurm on Controller scontrol ping # Test Slurm on Worker scontrol ping # Check cluster nodes sinfo # Test job allocation srun hostname . 4. NFS (Network File System) Setup . ansible-playbook -i inventory.ini 04-nfs.yaml . Verification: . # Check shared directories exist ls -l /exports/pakupi # On Controller ls -l /shared/pakupi # On Workers # Test file sharing touch /shared/pakupi/test # On Worker ls -l /shared/pakupi/test # Should appear on Controller and other Workers . 5. Worker Configuration . ansible-playbook -i inventory.ini 05-configure_worker.yaml . Verification: . # Check CPU frequency settings (should be 600MHz) lscpu # On Workers . 6. Worker Read Protection (Optional) . To make workers read-only: . ansible-playbook -i inventory.ini util-worker_readonly.yaml . To restore read-write access: . ansible-playbook -i inventory.ini util-worker_readwrite.yaml . ",
+    "url": "/wiki/raspberry-pi-cluster.html#cluster-configuration",
+    
+    "relUrl": "/wiki/raspberry-pi-cluster.html#cluster-configuration"
   },"34": {
     "doc": "Raspberry Pi Cluster",
-    "title": "Getting Started",
-    "content": "Accessing the Cluster . Access instructions to be added . Basic Commands . # SSH into the master node ssh pi@cluster-master.local # Check cluster status kubectl get nodes # View running pods kubectl get pods --all-namespaces # Deploy an application kubectl apply -f deployment.yaml . ",
-    "url": "/wiki/raspberry-pi-cluster.html#getting-started",
+    "title": "User Management",
+    "content": "Adding Users . Users are managed through NIS and can be added using Ansible: . ansible-playbook -i inventory.ini util-adduser.yaml \\ -e \"pakupi_user=USERNAME pakupi_password=PASSWORD\" . Replace USERNAME and PASSWORD with the desired credentials. After adding a user: . | The user account is created on the Controller | NIS maps are rebuilt to propagate changes to all Workers | The user can log in to any node in the cluster | . User Utilities . | No password sudo: Apply passwordless sudo access: ansible-playbook -i inventory.ini util-nopasswd.yaml . | . ",
+    "url": "/wiki/raspberry-pi-cluster.html#user-management",
     
-    "relUrl": "/wiki/raspberry-pi-cluster.html#getting-started"
+    "relUrl": "/wiki/raspberry-pi-cluster.html#user-management"
   },"35": {
     "doc": "Raspberry Pi Cluster",
+    "title": "Dashboard Configuration",
+    "content": "Grafana Setup . ansible-playbook -i inventory.ini 06-dashboard.yaml . Accessing Grafana . | Navigate to http://CONTROLLER_IP:3000 | Default credentials: . | Username: admin | Password: admin | . | . Configuring Slurm Dashboard . | Add Prometheus Data Source: . | Go to Configuration &gt; Data Sources | Add Prometheus data source | URL: http://localhost:9090 | Save and test | . | Import Slurm Dashboard: . | Go to Dashboards &gt; Import | Import by URL: https://grafana.com/grafana/dashboards/4323 | Select the configured Prometheus data source | . | . ",
+    "url": "/wiki/raspberry-pi-cluster.html#dashboard-configuration",
+    
+    "relUrl": "/wiki/raspberry-pi-cluster.html#dashboard-configuration"
+  },"36": {
+    "doc": "Raspberry Pi Cluster",
+    "title": "Configuration Variables",
+    "content": "Cluster configuration is managed through variables in the Ansible inventory and playbooks. Key configuration areas include: . | Network settings: IP ranges, subnet masks, DHCP ranges | Slurm configuration: Partition settings, node specifications | NFS exports: Shared directory paths and permissions | User management: Default groups, home directory locations | Dashboard settings: Grafana and Prometheus configuration | . Refer to the requirements-galaxy.yml and playbook files for detailed configuration options. ",
+    "url": "/wiki/raspberry-pi-cluster.html#configuration-variables",
+    
+    "relUrl": "/wiki/raspberry-pi-cluster.html#configuration-variables"
+  },"37": {
+    "doc": "Raspberry Pi Cluster",
     "title": "Resources",
-    "content": "Documentation . | Raspberry Pi Official Documentation | Kubernetes on Raspberry Pi | Docker ARM Documentation | . Tutorials . | Building a Raspberry Pi cluster from scratch | Setting up Kubernetes on ARM | Distributed computing with MPI | . ",
+    "content": "Documentation . | pakupi Setup Instructions | pakupi Configuration Variables | pakupi User Management | Raspberry Pi Official Documentation | Ubuntu Server Installation Guide | Slurm Documentation | . ",
     "url": "/wiki/raspberry-pi-cluster.html#resources",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#resources"
-  },"36": {
-    "doc": "Raspberry Pi Cluster",
-    "title": "Maintenance",
-    "content": "Regular Tasks . | Update system packages | Monitor node health | Check network connectivity | Backup configurations | . Troubleshooting . | Node offline: Check power and network connections | Performance issues: Monitor CPU and memory usage | Network problems: Verify switch configuration | . ",
-    "url": "/wiki/raspberry-pi-cluster.html#maintenance",
-    
-    "relUrl": "/wiki/raspberry-pi-cluster.html#maintenance"
-  },"37": {
-    "doc": "Raspberry Pi Cluster",
-    "title": "Future Enhancements",
-    "content": ". | Add more nodes to increase capacity | Implement distributed storage (Ceph, GlusterFS) | Set up monitoring dashboard | Install GPU accelerators for ML workloads | Configure automated backups | . ",
-    "url": "/wiki/raspberry-pi-cluster.html#future-enhancements",
-    
-    "relUrl": "/wiki/raspberry-pi-cluster.html#future-enhancements"
   },"38": {
     "doc": "Raspberry Pi Cluster",
     "title": "Contact",
-    "content": "For questions or issues with the Raspberry Pi cluster, please contact the lab administrator (xiaotian.dai@york.ac.uk). ",
+    "content": "For questions or issues with the RPi cluster, please contact the lab administrator (xiaotian.dai@york.ac.uk). ",
     "url": "/wiki/raspberry-pi-cluster.html#contact",
     
     "relUrl": "/wiki/raspberry-pi-cluster.html#contact"
   },"39": {
-    "doc": "Swarm Robot",
-    "title": "Swarm Robot",
+    "doc": "Sensors",
+    "title": "Sensors",
+    "content": "The lab is equipped with a variety of cameras and sensors for robotics, computer vision, and research applications: . ",
+    "url": "/wiki/sensors.html",
+    
+    "relUrl": "/wiki/sensors.html"
+  },"40": {
+    "doc": "Sensors",
+    "title": "Depth Cameras",
+    "content": ". | ZED 1 Stereoscopic depth camera capable of generating accurate 3D environment maps. Suitable for robotics, SLAM, and immersive applications. | Intel RealSense D435i RGB-D camera featuring an integrated IMU for 6-DOF motion tracking. Ideal for SLAM, object detection, robotics perception, and hand tracking. | Microsoft Kinect (original) Classic RGB-D sensor widely used for human body tracking, gesture recognition, and 3D scanning. | . ",
+    "url": "/wiki/sensors.html#depth-cameras",
+    
+    "relUrl": "/wiki/sensors.html#depth-cameras"
+  },"41": {
+    "doc": "Sensors",
+    "title": "Monocular Cameras",
+    "content": ". | Logitech Brio 4K ultra high-resolution USB webcam, primarily used for video conferencing, demonstration recordings, and general-purpose imaging. | Sony PlayStation 3 Eye High-frame-rate USB cameras commonly deployed in multi-camera setups for group motion capture, marker tracking, and computer vision research. | . ",
+    "url": "/wiki/sensors.html#monocular-cameras",
+    
+    "relUrl": "/wiki/sensors.html#monocular-cameras"
+  },"42": {
+    "doc": "Sensors",
+    "title": "LiDAR",
+    "content": ". | RP LIDAR A1 2D spinning LiDAR sensor. Useful for indoor mapping, obstacle detection, and autonomous navigation experiments. | . If you require access to any sensors not listed here, or have specific data collection needs, please contact the lab administrator. ",
+    "url": "/wiki/sensors.html#lidar",
+    
+    "relUrl": "/wiki/sensors.html#lidar"
+  },"43": {
+    "doc": "Swarm Robots",
+    "title": "Swarm Robots",
     "content": "We have a bunch of swarm robots, including . | Pi-Puck (E-Puck + Raspberry Pi) | Mona | Tello (drones) | . There is also a playground for these swarm robots, including a global vision camera that used to detection the positions. ",
     "url": "/wiki/swam-robot.html",
     
     "relUrl": "/wiki/swam-robot.html"
-  },"40": {
-    "doc": "University Server",
-    "title": "University Server (Viking)",
-    "content": " ",
-    "url": "/wiki/university-servers.html#university-server-viking",
+  },"44": {
+    "doc": "University Server \"Viking 2\"",
+    "title": "University Server (Viking 2)",
+    "content": "The university has its own high-performance computing, known as Viking 2. ",
+    "url": "/wiki/university-servers.html#university-server-viking-2",
     
-    "relUrl": "/wiki/university-servers.html#university-server-viking"
-  },"41": {
-    "doc": "University Server",
+    "relUrl": "/wiki/university-servers.html#university-server-viking-2"
+  },"45": {
+    "doc": "University Server \"Viking 2\"",
     "title": "Information",
     "content": ". | Viking Cluster | Viking Documentation | Information on GViking | Other University HPC Resources | . ",
     "url": "/wiki/university-servers.html#information",
     
     "relUrl": "/wiki/university-servers.html#information"
-  },"42": {
-    "doc": "University Server",
+  },"46": {
+    "doc": "University Server \"Viking 2\"",
     "title": "Quick Start",
-    "content": ". | SSH into one of the university computers, then | ssh xd656@viking.york.ac.uk | . ",
+    "content": "SSH into one of the university computers, or use VPN, and then . | ssh your_user_name@viking.york.ac.uk | . ",
     "url": "/wiki/university-servers.html#quick-start",
     
     "relUrl": "/wiki/university-servers.html#quick-start"
-  },"43": {
-    "doc": "University Server",
-    "title": "University Server",
+  },"47": {
+    "doc": "University Server \"Viking 2\"",
+    "title": "University Server \"Viking 2\"",
     "content": " ",
     "url": "/wiki/university-servers.html",
     

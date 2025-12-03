@@ -1,8 +1,7 @@
 ---
 layout: default
 title: FPGAs
-parent: Hardware
-nav_order: 2
+nav_order: 10
 toc: true
 ---
 

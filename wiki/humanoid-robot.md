@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Unitree G1 Humanoid Robot
-parent: Hardware
-nav_order: 1
+title: Humanoid Robot "Unitree G1"
+nav_order: 6
 toc: true
 ---
 
-# Unitree G1 Humanoid Robot
+# Humanoid Robot (Unitree G1)
 
 [Three computers](https://blogs.nvidia.com/blog/three-computers-robotics/) are needed to train and deploy robot technology:
 

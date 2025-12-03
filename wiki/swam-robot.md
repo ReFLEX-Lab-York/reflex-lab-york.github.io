@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Swarm Robot
-parent: Hardware
-nav_order: 3
+title: Swarm Robots
+nav_order: 8
 toc: true
 ---
 
-# Swarm Robot
+# Swarm Robots
 
 We have a bunch of swarm robots, including 
 
